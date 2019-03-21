@@ -1,0 +1,13 @@
+.introTxt {
+  display: inline;
+  background-color: rgb(41, 10, 10);
+  color: white;
+  font-family: "Tangerine", cursive;
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 0.4rem;
+
+  padding: 1.5rem;
+  margin: auto;
+  border-radius: 10px;
+}

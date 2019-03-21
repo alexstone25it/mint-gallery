@@ -1,0 +1,19 @@
+/*headingType*/
+.standard {
+  font-family: "Tangerine", cursive;
+  font-size: 6rem;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+  text-align: center;
+
+  margin: auto;
+  padding: 2.5rem;
+}
+/*headingColor*/
+.withWhite {
+  color: rgb(255, 255, 255);
+}
+/*extras*/
+.cursive {
+  font-family: "Tangerine", cursive;
+}

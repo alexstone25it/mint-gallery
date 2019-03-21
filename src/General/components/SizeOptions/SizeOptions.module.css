@@ -1,0 +1,22 @@
+.selector {
+  font-family: "Algreya", serif;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+
+  outline: 1px solid rgb(250, 235, 215);
+  outline-offset: 2px;
+}
+.options {
+  font-weight: bolder;
+}
+.price {
+  font-size: 4rem;
+  font-weight: bolder;
+
+  padding: 2rem;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px rgb(255, 255, 255), -2px -2px 2px rgb(255, 255, 255);
+}

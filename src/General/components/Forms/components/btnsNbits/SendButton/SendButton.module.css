@@ -1,0 +1,59 @@
+.sendBtn {
+  width: 50%;
+  background-color: rgb(41, 10, 10);
+  color: rgb(255, 255, 255);
+
+  font-family: "Algreya", serif;
+  font-size: 2.2rem;
+  font-style: italic;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  outline: 1px solid rgb(41, 10, 10);
+  outline-offset: 0.6rem;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+.sendBtn:hover,
+.sendBtn:focus {
+  text-shadow: -0.5px -0.5px 0.5px white, 0.2px 0.2px 0.2px black;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  outline-offset: 0.8rem;
+  transform: translateY(-1px);
+}
+.sendBtn:active {
+  text-decoration-style: solid;
+}
+.sendBtn:disabled {
+  width: 25%;
+  background-color: rgba(41, 10, 10, 0.4);
+  color: rgb(255, 255, 255);
+
+  font-family: "Algreya", serif;
+  font-size: 2.2rem;
+  font-style: italic;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  outline: none;
+
+  cursor: not-allowed;
+}
+.sendBtn:disabled:hover,
+.sendBtn:disabled:focus {
+  text-shadow: none;
+  text-decoration: none;
+  text-decoration-style: none;
+  transform: none;
+}

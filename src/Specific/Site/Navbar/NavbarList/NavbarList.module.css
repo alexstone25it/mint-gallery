@@ -1,0 +1,33 @@
+.list {
+  display: flex;
+  flex-flow: row nowrap;
+
+  width: 100%;
+
+  font-size: 2rem;
+
+  list-style-type: none;
+}
+.listContent {
+  align-self: center;
+  flex: 1 1 auto;
+
+  background-color: rgb(41, 10, 10);
+
+  padding: 2rem;
+}
+.listContent a {
+  color: rgb(250, 235, 215);
+
+  text-decoration: none;
+}
+.listContent a:hover,
+.listContent a:focus {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.listContent a:active,
+.listContent a.active {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}

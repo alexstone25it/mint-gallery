@@ -1,0 +1,83 @@
+.btn {
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+.general {
+  background-color: rgb(250, 235, 215);
+
+  font-family: "Algreya", serif;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  font-style: italic;
+
+  border-radius: 5px;
+
+  outline: 1px solid rgb(250, 235, 215);
+  outline-offset: 0.6rem;
+}
+.general:hover,
+.general:focus {
+  text-shadow: -0.5px -0.5px 0.5px white, 0.2px 0.2px 0.2px rgb(0, 0, 0);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  outline-offset: 0.8rem;
+  transform: translateY(-1px);
+}
+.general:active {
+  text-decoration-style: solid;
+}
+
+.bigYellow {
+  background-color: rgb(255, 255, 0);
+  color: rgb(41, 10, 10);
+
+  font-size: 2rem;
+
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.bigYellow:hover,
+.bigYellow:focus {
+  text-decoration: underline;
+  text-decoration-color: rgb(41, 10, 10);
+  text-decoration-style: dotted;
+}
+.bigYellow:active {
+  text-decoration-style: solid;
+}
+.bigYellow:visited {
+  text-decoration-style: dashed;
+}
+
+.fancy {
+  background: radial-gradient(
+    rgba(41, 10, 10, 1),
+    rgba(41, 10, 10, 0.9),
+    rgba(255, 255, 255, 0.1)
+  );
+  color: rgb(255, 255, 255);
+
+  font-family: "Tangerine", cursive;
+  font-size: 6rem;
+  letter-spacing: 0.5rem;
+  text-shadow: 0px 3px 3px rgb(0, 100, 0);
+
+  padding: 2rem 4rem;
+  margin: 3rem;
+  border: 5px double rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow: 1px 8px 8px rgb(0, 0, 0);
+}
+.fancy:hover {
+  box-shadow: 1px 8px 15px rgb(0, 0, 0);
+
+  transform: scale(1.03);
+}
+.fancy:active {
+  box-shadow: none;
+
+  transform: none;
+}

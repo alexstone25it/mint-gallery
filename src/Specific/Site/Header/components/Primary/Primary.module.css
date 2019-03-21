@@ -1,0 +1,9 @@
+.primary {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1.5rem;
+  text-shadow: 3px 5px 5px rgb(250, 235, 215);
+
+  padding: 3rem;
+}

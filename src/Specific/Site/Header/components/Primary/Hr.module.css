@@ -1,0 +1,8 @@
+.hr {
+  width: 5%;
+
+  margin: auto;
+  border-width: 0;
+  border-color: rgb(41, 10, 10);
+  box-shadow: 0px 0px 10px 1px rgb(41, 10, 10);
+}

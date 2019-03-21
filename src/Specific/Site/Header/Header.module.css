@@ -1,0 +1,10 @@
+.background {
+  background: radial-gradient(
+    rgb(255, 255, 0) 0px,
+    rgb(144, 238, 144) 30%,
+    rgb(0, 100, 0)
+  );
+
+  color: rgb(41, 10, 10);
+  text-align: center;
+}

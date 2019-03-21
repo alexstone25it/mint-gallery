@@ -1,0 +1,95 @@
+.wrapper {
+  background: linear-gradient(to right, rgb(144, 238, 144), rgb(0, 100, 0));
+}
+.wrapper p {
+  color: rgb(250, 235, 215);
+}
+.title {
+  color: rgb(41, 10, 10);
+
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 2.5rem;
+  text-shadow: 3px 3px 10px rgb(250, 235, 215);
+  text-transform: uppercase;
+
+  padding: 2rem;
+
+  animation: colorChange 8s infinite ease-in-out;
+}
+.title a {
+  color: inherit;
+
+  text-decoration: none;
+}
+.sub {
+  height: 5rem;
+
+  color: rgb(250, 235, 215);
+
+  font-size: 2rem;
+  letter-spacing: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 5px rgb(41, 10, 10);
+
+  padding-top: 2rem;
+  border: 2px solid rgb(0, 100, 0);
+
+  animation: colorChange 5s infinite ease-in-out;
+}
+.sub a {
+  color: inherit;
+  text-decoration: none;
+}
+.socialMedia {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: space-around;
+
+  transform: translateX(-2rem);
+}
+.socialMediaItems {
+  flex: 1 1 auto;
+  text-align: center;
+
+  padding: 1rem;
+}
+.socialMediaItems a {
+  color: rgb(41, 10, 10);
+
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 0px rgb(250, 235, 215);
+}
+.socialMediaItems a:hover {
+  color: rgb(250, 235, 215);
+
+  text-decoration: underline;
+}
+.socialMediaItems a:active {
+  color: rgb(0, 0, 0);
+
+  text-shadow: none;
+}
+
+.copy {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.ti {
+  font-size: 1.2rem;
+  text-align: right;
+
+  margin-right: 1rem;
+}
+@keyframes colorChange {
+  0%,
+  100% {
+    color: rgb(250, 235, 215);
+    text-shadow: 3px 3px 5px rgb(41, 10, 10);
+  }
+  50% {
+    color: rgb(41, 10, 10);
+    text-shadow: 3px 3px 5px rgb(250, 235, 215);
+  }
+}

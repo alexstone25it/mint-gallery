@@ -1,0 +1,10 @@
+.cursive {
+  display: block;
+
+  font-family: "Tangerine", cursive;
+  font-size: 8rem;
+  line-height: 5rem;
+  text-shadow: 0px 3px 3px rgb(0, 100, 0);
+
+  margin: 2.5rem;
+}

@@ -1,0 +1,33 @@
+/*headingType*/
+.bigger {
+  font-size: 8rem;
+  font-weight: lighter;
+  text-align: center;
+
+  margin-top: 2.5rem;
+}
+.smaller {
+  font-size: 5rem;
+  font-weight: lighter;
+
+  padding: 4rem;
+  margin-left: 7%;
+}
+.centerBlock {
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 1rem;
+
+  margin: 2rem;
+}
+/*headingColor*/
+.withWhite {
+  color: rgb(255, 255, 255);
+}
+/*extras*/
+.cursive {
+  font-family: "Tangerine", cursive;
+}
+.italic {
+  font-style: italic;
+}

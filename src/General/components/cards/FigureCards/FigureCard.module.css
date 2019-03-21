@@ -1,0 +1,48 @@
+.wrapper {
+  min-width: 100px;
+  max-width: 200px;
+
+  font-size: 4rem;
+  font-weight: lighter;
+  text-align: center;
+
+  margin: 2.5rem;
+  border: 2px solid rgb(250, 235, 215);
+  outline: 3px solid rgb(250, 235, 215);
+  outline-offset: 3px;
+
+  cursor: pointer;
+
+  transition: all 0.5s ease-in;
+}
+.wrapper:hover,
+.wrapper:focus {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: rgb(250, 235, 215);
+
+  border: none;
+  outline: none;
+  box-shadow: 1px 5px 20px rgb(255, 255, 255);
+
+  transform: scale(1.25);
+}
+.wrapper:active {
+  text-decoration-style: solid;
+}
+.wrapper:visited {
+  text-decoration-style: dashed;
+}
+.img {
+  display: block;
+
+  min-width: 100px;
+  max-width: 200px;
+
+  object-fit: cover;
+}
+.caption {
+  color: rgb(255, 255, 255);
+
+  font-family: "Tangerine", cursive;
+}

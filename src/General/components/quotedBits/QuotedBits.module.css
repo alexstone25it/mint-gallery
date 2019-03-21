@@ -1,0 +1,9 @@
+.background {
+  width: 85%;
+
+  background-color: rgb(250, 235, 215);
+
+  text-align: center;
+
+  margin: 2.5% auto;
+}

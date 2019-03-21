@@ -1,0 +1,9 @@
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+
+  text-align: center;
+
+  margin-top: 2.5%;
+}

@@ -1,0 +1,10 @@
+.subheading {
+  color: rgb(255, 255, 255);
+
+  font-family: "Tangerine", cursive;
+  font-size: 6rem;
+  font-weight: lighter;
+  text-align: left;
+
+  margin-left: 4rem;
+}

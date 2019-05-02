@@ -79,7 +79,11 @@ class Basket extends Component {
 
             <div className={styles.orderButtonWrapper}>
               <Button btnType="general">
-                <Link to="/order/checkout">Place my order</Link>
+                {this.props.basket.basket < 1 ? (
+                  <span className={styles.placeholder}>Place my order</span>
+                ) : (
+                  <Link to="/order/checkout">Place my order</Link>
+                )}
               </Button>
             </div>
           </Div>

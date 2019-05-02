@@ -118,3 +118,15 @@
 
   padding: 2rem 4rem;
 }
+.placeholder {
+  height: 100%;
+  width: 100%;
+
+  color: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+
+  text-decoration: inherit;
+}

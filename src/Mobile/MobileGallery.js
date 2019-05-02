@@ -1,4 +1,4 @@
-import React from "react";
+import React from "./node_modules/react";
 
 import SectionGrid from "../General/containers/general/SectionGrid";
 import SaleCard from "../General/components/cards/SaleCards/SaleCard";

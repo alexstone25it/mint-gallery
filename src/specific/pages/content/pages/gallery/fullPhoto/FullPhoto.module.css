@@ -1,0 +1,53 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(41, 10, 10, 0.99);
+
+  text-align: center;
+
+  z-index: 1;
+}
+
+.backdrop img {
+  position: fixed;
+  top: 3rem;
+  left: 1rem;
+  right: 1rem;
+  max-width: 95%;
+  max-height: 75%;
+
+  margin: auto;
+
+  outline: 1px solid rgb(250, 235, 215);
+  outline-offset: 2px;
+  object-fit: contain;
+}
+.backdrop h6 {
+  color: white;
+
+  font-size: 4rem;
+
+  margin-top: -5rem;
+  transform: translateY(-3rem);
+  text-shadow: 1px 1px 5px rgb(0, 0, 0), -1px -1px 5px rgb(0, 0, 0);
+}
+
+.btnWrapper {
+  width: 100%;
+  position: fixed;
+  bottom: 5vh;
+  margin: 1.5rem auto auto auto;
+}
+
+.backdrop button {
+  padding: 2rem 4rem;
+  margin: -1rem 3rem;
+}
